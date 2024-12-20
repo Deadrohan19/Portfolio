@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button";
 import PulsatingButton from "@/components/ui/pulsating-button";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function About() {
   return (
