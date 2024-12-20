@@ -2,6 +2,7 @@
 import ScrollProgress from "@/components/ui/scroll-progress";
 import About from "./_components/about";
 import Hero from "./_components/hero";
+import Skills from "./_components/skills";
 
 export default function Portfolio() {
   return (
@@ -9,6 +10,7 @@ export default function Portfolio() {
       <ScrollProgress />
       <Hero />
       <About />
+      <Skills />
     </main>
   );
 }
