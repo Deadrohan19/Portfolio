@@ -18,11 +18,11 @@ export default function About() {
           </div>
           <div className="space-y-4 px-4 md:px-0">
             <p className="text-sm sm:text-base md:text-lg text-justify">
-              I'm a passionate web developer and competitive programmer with a knack for creating elegant solutions in the least amount of time.
-              Currently pursuing my Bachelor's in Computer Science at Chandigarh University.
+              I&apos;m a passionate web developer and competitive programmer with a knack for creating elegant solutions in the least amount of time.
+              Currently pursuing my Bachelor&apos;s in Computer Science at Chandigarh University.
             </p>
             <p className="text-sm sm:text-base md:text-lg text-justify">
-              When I'm not coding, you can find me solving complex algorithmic problems, participating in coding competitions, or learning new technologies. I believe in continuous learning and pushing the boundaries of what's possible with code.
+              When I&apos;m not coding, you can find me solving complex algorithmic problems, participating in coding competitions, or learning new technologies. I believe in continuous learning and pushing the boundaries of what&apos;s possible with code.
             </p>
             <p className="text-sm sm:text-base md:text-lg text-justify">
             I use Neovim along with arch BTW. 
