@@ -2,11 +2,12 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Code2, Database, Globe, Terminal, Cpu, GitBranch, DockIcon as Docker, Server, Layout, FileCode, Zap, Puzzle, Brain, LucideIcon, Code, Monitor } from 'lucide-react'
+import { IconLanguageCpp, IconBxlJavascript, IconBxlPython, IconBxlJava, IconNextjs, IconExpressjs, IconBxlMongodb, IconBxlPostgresql, IconGit, IconNeovim, IconDocker, IconLinux, IconFlowTree, IconCpuFill, Icon033Books, IconExtensionPuzzleSharp } from "@/components/icons" 
+import React from "react";
 
 interface singleSkill {
   name: string;
-  icon: LucideIcon;
+  icon: (props: React.SVGProps<SVGSVGElement>) => React.JSX.Element;
 }
 
 interface skillsProps {
@@ -18,37 +19,37 @@ const skills : skillsProps[] = [
   {
     category: "Programming Languages",
     items: [
-      { name: "C++", icon: Code2 },
-      { name: "JavaScript", icon: FileCode },
-      { name: "Python", icon: Terminal },
-      { name: "Java", icon: Code }
+      { name: "C++", icon: IconLanguageCpp },
+      { name: "JavaScript", icon: IconBxlJavascript },
+      { name: "Python", icon: IconBxlPython },
+      { name: "Java", icon: IconBxlJava }
     ]
   },
   {
     category: "Web Technologies",
     items: [
-      { name: "React", icon: Layout },
-      { name: "Next.js", icon: Globe },
-      { name: "Node.js", icon: Server },
-      { name: "MongoDB", icon: Database }
+      { name: "Next.js", icon: IconNextjs },
+      { name: "Express.js", icon: IconExpressjs },
+      { name: "MongoDB", icon: IconBxlMongodb },
+      { name: "PostgresSQL", icon: IconBxlPostgresql }
     ]
   },
   {
     category: "Developer Tools",
     items: [
-      { name: "Git", icon: GitBranch },
-      { name: "Neovim", icon: Terminal },
-      { name: "Docker", icon: Docker },
-      { name: "VS Code", icon: Monitor }
+      { name: "Git", icon: IconGit },
+      { name: "Neovim", icon: IconNeovim },
+      { name: "Docker", icon: IconDocker },
+      { name: "Linux", icon: IconLinux }
     ]
   },
   {
     category: "Core Skills",
     items: [
-      { name: "Data Structures", icon: Puzzle },
-      { name: "Algorithms", icon: Zap },
-      { name: "System Design", icon: Cpu },
-      { name: "Problem Solving", icon: Brain }
+      { name: "Data Structures", icon: IconFlowTree },
+      { name: "Problem Solving", icon: IconExtensionPuzzleSharp },
+      { name: "System Design", icon: IconCpuFill },
+      { name: "Fundamentals", icon: Icon033Books }
     ]
   }
 ]
