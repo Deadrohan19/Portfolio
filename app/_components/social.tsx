@@ -1,5 +1,6 @@
 import { ModeToggle } from "@/components/mode-toggle"
 import { Dock, DockIcon } from "@/components/ui/dock";
+import { Separator } from "@/components/ui/separator";
 import { Github, Linkedin, Mail } from 'lucide-react'
 
 export default function Social() {
@@ -20,6 +21,7 @@ export default function Social() {
         <Mail />
         </a>
       </DockIcon>
+      <Separator orientation="vertical" className="h-full" />
       <DockIcon>
         <ModeToggle />
       </DockIcon>
