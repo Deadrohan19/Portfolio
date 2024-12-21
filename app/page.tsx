@@ -5,6 +5,7 @@ import Hero from "./_components/hero";
 import Skills from "./_components/skills";
 import Projects from "./_components/projects";
 import { Achievements } from "./_components/achievements";
+import Education from "./_components/education";
 
 export default function Portfolio() {
   return (
@@ -12,13 +13,10 @@ export default function Portfolio() {
       <ScrollProgress />
       <Hero />
       <About />
-      <Skills />
+      <Education />
       <Projects />
+      <Skills />
       <Achievements />
-
-        {/* Todo */}
-      {/* Education */}
-      {/* Footer */}
     </main>
   );
 }
