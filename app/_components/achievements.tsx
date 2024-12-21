@@ -32,7 +32,7 @@ const achievements: AchievementsProps[] = [
     image: "/ICPC_24.jpg"
   },
   {
-    title: "Placment Coding Challenge",
+    title: "Competition",
     subtitle: "Ranked 2nd",
     description: "Coding rounds over couple of months for placements",
     icon: Trophy,
@@ -48,7 +48,7 @@ const achievements: AchievementsProps[] = [
     image: "/codeGenius.jpg"
   },
   {
-    title: "Smart India Hackathon",
+    title: "SIH",
     subtitle: "2022 Finalist",
     description: "National runner-up at GMRIT, Andhra Pradesh.",
     icon: Award,
