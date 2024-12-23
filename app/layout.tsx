@@ -4,7 +4,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Social from "./_components/social"
 import { cn } from "@/lib/utils";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const fontSans = Inter({
   subsets: ['latin'],
@@ -39,7 +38,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SpeedInsights />
           <Social />
           {children}
         </ThemeProvider>
