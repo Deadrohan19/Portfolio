@@ -21,15 +21,15 @@ const projects : ProjectProps[] = [
     title: "NoteSpace",
     description: "A feature-rich, multi-page note-taking application.",
     image: "/noteSpace.png",
-    technologies: ["Next.js", "Convex", "Clerk", "EdgeStore"],
-    github: "https://github.com/Deadrohan19/note-space",
-    live: "https://note-taking-app-theta-ecru.vercel.app/",
+    technologies: ["ReactJS", "Next.js", "Convex", "Clerk", "EdgeStore"],
+    github: "https://github.com/Deadrohan19/notespace",
+    live: "https://notespace.rohanjaiswal.in",
   },
   {
     title: "Rule Engine w/ AST",
     description: "A powerful rule engine that parses expressions and provides Abstract Syntax Trees (AST).",
     image: "/ruleEngine.png",
-    technologies: ["Next.js", "Python", "PostgreSQL", "Docker"],
+    technologies: ["Next.js", "Python", "PostgreSQL", "Docker", "Compiler Design", "Tree Data Structure"],
     github: "https://github.com/deadrohan19/rule_engine_with_ast",
     live: undefined,
   },
@@ -37,9 +37,9 @@ const projects : ProjectProps[] = [
     title: "Weather Dashboard",
     description: "Real-time weather data visualization with alerting capabilities.",
     image: "/weatherDashboard.png",
-    technologies: ["React", "Node.js", "MongoDB", "OpenWeather API"],
+    technologies: ["ReactJS","ExpressJS", "Node.js", "MongoDB", "OpenWeather API"],
     github: "https://github.com/deadrohan19/weather-monitoring",
-    live: "https://weather-monitoring-lilac.vercel.app/",
+    live: "https://weather.rohanjaiswal.in/",
   },
 ]
 
@@ -96,7 +96,7 @@ function ProjectCard({ project }: { project: ProjectProps }) {
     </div>
     </CardContent>
     </Card>
-  )
+  )Mothīhāri, IN
 }
 
 export default function Projects() {
