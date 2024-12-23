@@ -96,7 +96,7 @@ function ProjectCard({ project }: { project: ProjectProps }) {
     </div>
     </CardContent>
     </Card>
-  )Mothīhāri, IN
+  )
 }
 
 export default function Projects() {
